@@ -3,6 +3,8 @@
 
 Base62 is a tiny package for [Base62](https://en.wikipedia.org/wiki/Base62) encoding/decoding values. It is tested, documented, easy-to-use and supports Apple Platforms, as well as Linux.
 
+I use this as encoding mechanism for my own URL shortener but this is a general purpose implementation that should suffice all use cases that require Base62 encoding/decoding.
+
 ## Installation
 Base62 is distributed using the Swift Package Manager. To install it into a project, add it as a dependency within your `Package.swift` manifest:
 
