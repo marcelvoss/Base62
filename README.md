@@ -33,7 +33,7 @@ Base62 ships with a single object that provides encoding and decoding functional
 let base62Encoded = Base62.encode(2021)
 // 2021 == "wz"
 
-let base62Decoded = Base62.decode("GitHub")
+let base62Decoded = try Base62.decode("GitHub")
 // "GitHub" == 38750631667
 ```
 
